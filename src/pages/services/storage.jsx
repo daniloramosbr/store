@@ -1,16 +1,16 @@
 /* eslint-disable no-unused-vars */
 //buscar os links salvos ==
 export async function GetLink(key) {
-const MyLinks = await localStorage.getItem(key)  //buscou no localStorage
+const MyLinks = await localStorage.getItem(key)  
 
-let linksSaves = JSON.parse(MyLinks)  || []  //converteu pra array
+let linksSaves = JSON.parse(MyLinks)  || []  
 
-return linksSaves                               //devolveu pra quem chamou
+return linksSaves                              
 }
 
 //salvar os links ==
 export async function SaveLink(key, NewObj) {
-let linkStorage = await GetLink(key)               //vai retornar os links salvos
+let linkStorage = await GetLink(key)              
 
 
 const haveLink = linkStorage.some(link => link.img === NewObj.img)
@@ -63,6 +63,6 @@ const position = linkStorage.indexOf(arr[0])
     Edit.splice(position, 0, New)
 
 
-    localStorage.setItem('@DanDev', JSON.stringify(Edit))           //enviou pro localStorage
+    localStorage.setItem('@DanDev', JSON.stringify(Edit))          
 
 }

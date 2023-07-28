@@ -13,8 +13,7 @@ import Loading from "../loading/loading";
 import { ContextJsx } from "../context/Context";
 
 export default function Section() {
-  const {resApi, setResApi} = useContext(ContextJsx)
-  const {loading, setLoading, setShowmodal} = useContext(ContextJsx)
+  const {resApi, setResApi,loading, setLoading, setShowmodal} = useContext(ContextJsx)
  
     useEffect(() => {
     async function run() {

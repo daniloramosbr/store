@@ -3,8 +3,7 @@ import { useContext, useState } from "react";
 import "./modal.css";
 import { ContextJsx } from "../context/Context";
 export default function Modal() {
-  const {resModal} = useContext(ContextJsx)
-  const {showdelete} = useContext(ContextJsx)
+  const {resModal,showdelete} = useContext(ContextJsx)
 
   return (
     <div className="container-modal">

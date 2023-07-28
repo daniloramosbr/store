@@ -1,5 +1,5 @@
 /* eslint-disable no-unused-vars */
-import React, { useContext, useEffect, useState } from 'react'
+import React, { useContext, useState } from 'react'
 import './cart.css'
 import Header from '../components/header/header'
 import { ContextJsx } from '../components/context/Context'
@@ -9,9 +9,8 @@ import { GetLink } from '../services/storage'
 import Loading from '../components/loading/loading'
 
 export default function Cart() {
-  const{modal} = useContext(ContextJsx)
   const [showCart, setShowCart] = useState(true)
-  const {itemCart, setItemCart,} = useContext(ContextJsx)
+  const {itemCart, setItemCart,modal} = useContext(ContextJsx)
   const [loadCart, setLoadCart] = useState(true)
   const [restotal, setRestotal] = useState(Number)
 

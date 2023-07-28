@@ -10,8 +10,7 @@ import { DeleteLinks } from "../services/storage";
 import { UpdateLinks } from "../services/storage";
 
 export default function Cartitem({img, title, price, item, description, setcart, amount, id}) {
-  const {setData, itemCart, setItemCart, setModal, setResModal,} = useContext(ContextJsx)
-  const {setShowdelete} = useContext(ContextJsx)
+  const {setData, itemCart, setItemCart, setModal, setResModal,setShowdelete} = useContext(ContextJsx)
   const [count, setCount] = useState(amount)
  
   useEffect(()=>{

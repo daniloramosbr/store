@@ -9,9 +9,7 @@ import Api from "./api";
 import { SaveLink } from "../services/storage";
 
 export default function Product() {
-  const { data, setShowmodal, setShowdelete } = useContext(ContextJsx);
-  const {setResModal} = useContext(ContextJsx)
-  const{setModal} = useContext(ContextJsx)
+  const { data, setShowmodal, setShowdelete,setModal,setResModal } = useContext(ContextJsx);
 
   const priceInt = Number(data[0].price)
 

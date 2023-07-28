@@ -6,9 +6,7 @@ import { Link } from 'react-router-dom'
 
 export default function Menu() {
   
-  const { width, setWidth } = useContext(ContextJsx)
-  const { ScrollHard } = useContext(ContextJsx)
-  const { ScrollPer } = useContext(ContextJsx)
+  const { width, setWidth, ScrollPer,ScrollHard } = useContext(ContextJsx)
 
   return (
     <div className="container-menu">

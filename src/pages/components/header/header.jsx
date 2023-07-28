@@ -3,12 +3,11 @@ import "./header.css";
 import Menu from "./menu/menu";
 import { Link } from "react-router-dom";
 import Modalsearch from "./modalSearch/modalsearch";
-import { useContext, useEffect, useState } from "react";
+import { useContext} from "react";
 import { ContextJsx } from "../context/Context";
 
 export default function Header() {
-  const {setBkgone, setBkgtwo, setBkgtree} = useContext(ContextJsx)
-  const {theme, setTheme} = useContext(ContextJsx)
+  const {setBkgone, setBkgtwo, setBkgtree, theme, setTheme} = useContext(ContextJsx)
 
   function TogleTheme() {
   setTheme(theme === false ? true : false)
