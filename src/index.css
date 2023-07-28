@@ -1,0 +1,13 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins%3Awght%40100%3B200%3B300%3B400&display=swap%27%29%3B);
+@import url(https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap);
+* {
+margin:  0;
+padding: 0;
+box-sizing: border-box;
+scroll-behavior: initial;
+
+}
+body {
+width: 100%;
+height: 100vh;
+}

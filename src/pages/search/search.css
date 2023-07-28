@@ -1,0 +1,14 @@
+.search {
+  width: 100%;
+  position: relative;
+  top: 75px;
+  text-align: center;
+  height: 20vh;
+  justify-content: center;
+}
+.error {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 30px;
+}

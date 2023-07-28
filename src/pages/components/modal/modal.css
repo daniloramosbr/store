@@ -1,0 +1,31 @@
+.container-modal {
+width: 100%;
+max-width: 500px;
+justify-content: center;
+position: absolute;
+bottom: 60px;
+background: #0E34A0;
+text-align: center;
+display: flex;
+flex-direction: column;
+gap: 16px;
+padding: 10px 0 10px 0;
+border-radius: 5px;
+animation: slide 1.2s;
+box-shadow: 4px 5px 12px -5px rgba(0,0,0,0.56);
+}
+.modal-cart {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+@keyframes slide {
+    from {
+      transform: translateY(60px);
+      opacity: 0%;
+    }
+    to {
+      transform: translateY(0px);
+      opacity: 100%;
+    }
+  }

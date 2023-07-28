@@ -1,0 +1,21 @@
+.container-load {
+width: 100%;
+display: flex;
+justify-content: center;
+position: absolute;
+bottom: 20rem;
+}
+.load {
+  
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+    background: conic-gradient(#0000 10%, #766df4);
+    -webkit-mask: radial-gradient(farthest-side, #0000 calc(100% - 4px), #000 0);
+    animation: s3 0.5s infinite linear;
+  }
+  @keyframes s3 {
+    to {
+      transform: rotate(1turn);
+    }
+  }

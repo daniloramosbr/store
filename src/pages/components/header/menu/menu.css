@@ -1,0 +1,35 @@
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 0%;
+  max-width: 300px;
+  position: fixed;
+  z-index: 9;
+  gap: 20px;
+  overflow-x: hidden;
+  background-color: #0E34A0;
+  transition: all 0.4s;
+  top: 0px;
+  left: 0%;
+  -webkit-box-shadow: 4px 5px 15px -1px rgba(0,0,0,0.26); 
+box-shadow: 4px 5px 15px -1px rgba(0,0,0,0.26);
+}
+.buttp, .butth {
+margin-bottom: 10px;;
+width: 90%;
+height: 25px;
+border-radius: 5px;
+
+}
+.categ-title {
+text-align: center;
+font-weight: bold;
+}
+.link-button {
+text-align: center;
+width: 100%;
+}

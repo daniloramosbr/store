@@ -1,0 +1,110 @@
+section {
+display: flex;
+flex-wrap: wrap;
+gap: 10px;
+width: 100%;
+justify-content: center;
+padding: 0px 40px;
+transition: all;
+}
+.one-container {
+
+display: flex;
+flex-direction: column;
+width: 20%;
+margin-bottom: 10px;
+text-align: center;
+gap: 10px;
+background:#0E34A0;
+cursor: pointer;
+padding: 3px;
+border-radius: 4px;
+text-decoration: none;
+-webkit-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.11); 
+box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.11);
+}
+
+.one-container:hover {
+    scale: 1.05;
+    transition: all 0.5s;
+}
+.one-container b {
+font-size: 16px;
+color: #fff;
+
+}
+.one-container div {
+font-weight: bold;
+color: rgb(34, 200, 64);
+}
+.categ {
+text-align: center;
+margin: 25px 0px;
+color: #000;
+font-size: 30px;
+background-color: #dddddd;
+border: 0.5px solid  #a8a8a8;
+}
+.button-price {
+position: fixed;
+top: 10.5rem;
+left: 0.9%;
+gap: 15px;
+display: flex;
+flex-direction: column;
+text-align: center;
+font-weight: bold;
+background: #0E34A0;
+border-radius: 4px;
+padding: 5px;
+-webkit-box-shadow: 4px 5px 15px -1px rgba(0,0,0,0.26); 
+box-shadow: 4px 5px 15px -1px rgba(0,0,0,0.26);
+}
+.button-price button {
+width: 100%;
+font-size: 13px;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+
+@media (max-width: 500px ) {
+    .one-container {
+width: 100%;
+}
+.button-price {
+display: none;
+}
+#toper {
+    margin-top: 0px;
+    }
+section {
+    padding: 0px 20px;
+}
+#up {
+    right: 2rem;
+}
+}
+.section-cont {
+margin-top: 100px;
+}
+.cont-up {
+position: fixed;
+bottom:  40px;
+right: 5rem;
+z-index: 9;
+}
+.cont-up button {
+width: 40px;
+height: 40px;
+}
+.cont-up ion-icon {
+font-size: 30px;
+}
+.night {
+background-color: rgb(118, 118, 118);
+}
+.title-price {
+letter-spacing: 2px;
+}
+body {
+
+    }

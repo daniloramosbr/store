@@ -1,0 +1,153 @@
+.cont-cart {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+position:absolute ;
+}
+.nav-cart {
+  width: 100%;
+  background-color: #0E34A0;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 4px 5px 12px -5px rgba(0,0,0,0.56);
+}
+.cont-cart-ofc {
+
+  display: flex;
+  text-align: center;
+  align-items: center;
+ border: 1px solid rgb(157, 157, 157);
+  border-radius: 4px;
+
+}
+.cont-cart h1 {
+font-size: 30px;
+}
+.section-cart {
+  border-radius: 5px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.header-cart {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.ion ion-icon {
+font-size: 30px;
+}
+.div-abs {
+width: 100%;
+margin-bottom: 60px;
+}
+.butt-qtd {
+  text-align: center;
+  display: flex;
+  padding-left: 40px;
+
+}
+.butt-qtd button {
+width: 30px;
+height: 30px;
+
+}
+.img-title {
+  width: 100%;
+  display: flex;
+  align-items: center;
+
+}
+.cont-price {
+  width: 100%;
+
+  text-decoration: none;
+}
+.cont-butt {
+  justify-content: end;
+  width: 35%;
+  display: flex;
+}
+.price-cart {
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+padding-right: 50px;
+}
+.cont-title {
+  text-decoration: none;
+}
+.cont-title-cart {
+letter-spacing: 0px;
+}
+.total {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  border-radius: 5px;
+}
+.total h2 {
+font-size: 30px;
+}
+.total div {
+color: rgb(0, 167, 31);
+font-size: 25px;
+font-weight: bold;
+}
+.trash {
+padding-left: 60px;
+
+}
+.number-cart {
+padding: 0px 3px 0px 3px;
+}
+.trash button {
+  border: 1.5px solid red;
+}
+.section-cart div {
+font-weight: bold;
+}
+
+@media (max-width: 640px) {
+  .cont-cart {
+  justify-content: start;
+  }
+
+}
+
+@media (max-width: 500px) {
+  .nav-cart {
+    width: 100%;
+  }
+  .section-cart {
+  display: none;
+  }
+  .butt-qtd {
+    padding: 0;
+  }
+  .trash {
+    padding: 0;
+    }
+    .cont-cart-ofc {
+      display: block;
+      padding: 4px;
+}
+.price-cart {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ padding: 0;
+}
+.cont-butt {
+  width: 100%;
+justify-content: space-between;
+}
+.div-abs {
+  width: 100%;
+  margin-bottom: 30px;
+  }
+}

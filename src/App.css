@@ -1,0 +1,67 @@
+ion-icon {
+  font-size: 20px;
+}
+button,
+input {
+  border: none;
+  border-radius: 5px;
+}
+button {
+width: 35px;
+height: 30px;
+cursor: pointer;
+-webkit-box-shadow: 4px 5px 15px -1px rgba(0,0,0,0.26); 
+box-shadow: 4px 5px 15px -1px rgba(0,0,0,0.26);
+}
+button:hover {
+background-color: rgb(118, 118, 118);
+transition: all 0.2s;
+}
+h1, h2, h3 {
+  font-family: 'Bebas Neue', sans-serif;
+}
+div {
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.debug-home {
+  overflow: hidden;
+}
+body {
+background-color: #f5f5f5;
+}
+.dark {
+  background-color: #000000;
+}
+
+.dark button {
+background-color: rgb(0, 0, 0);
+color: #f5f5f5;
+}
+.dark button:hover {
+background-color: #646464;
+}
+.dark .nav-cont, .dark .modal-search, .dark .price-cont,  .dark .cont-cart {
+background-color: #000000;
+}
+.dark #input, .dark .categ {
+color: #f5f5f5;
+background-color:rgb(0, 0, 0);
+}
+.dark #butt-s {
+background-color: rgb(0, 0, 0);;
+}
+.dark #title-prod, .dark .title, .dark .price-mod, .dark .res div, .dark .div-cep, .dark .div-busc,  .dark .desc  {
+color: #f5f5f5;
+}
+.dark .container-header, .dark .dev, .dark .cont-foot, .dark .button-price, .dark .one-container, .dark .nav, .dark .nav-cart {
+background-color: #132780;
+}
+.dark .button-comp {
+background-color:  rgb(0, 167, 31);;
+}
+.dark .button-comp:hover {
+  background-color:rgb(20, 137, 41);
+}
+.dark #button-calc {
+border: 1px solid #f5f5f5;
+}
