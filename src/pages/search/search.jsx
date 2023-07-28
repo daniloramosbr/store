@@ -33,7 +33,7 @@ export default function Search() {
       <h2 className="error"> 
       PRODUTO NÃO ENCONTRADO.
       <div>BUSCA FEITA POR {inputres}</div>
-     <Link to={'/'}>
+     <Link to={'/store'}>
      CLIQUE AQUI PARA VOLTAR</Link>
     </h2>
     )}

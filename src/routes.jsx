@@ -9,7 +9,7 @@ function RoutesApp() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/store" element={<Home />} />
         <Route path="/produto" element={<Product />} />
         <Route path="/carrinho" element={<Cart />} />
         <Route path="/price" element={<FilterPrice />} />

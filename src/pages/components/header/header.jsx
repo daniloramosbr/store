@@ -28,7 +28,7 @@ export default function Header() {
       <div className="header-menu">
           <Menu />
         </div>
-        <Link to={'/'} className="logo" onClick={scroll}>
+        <Link to={'/store'} className="logo" onClick={scroll}>
           <img src="logotip.png"  />
           <h1 className="namelogo
           ">STORE</h1>
