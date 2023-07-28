@@ -19,7 +19,7 @@ export default function Menu() {
       <div className='categ-title'>
         CATEGORIAS:
       </div>
-     <Link to={'/store'} className='link-button'>
+     <Link to={'/store/'} className='link-button'>
      <button className='buttp' onClick={ScrollPer}>PERIFÉRICOS</button>
       <button className='butth' onClick={ScrollHard}>HARDWARE</button>
       </Link>
