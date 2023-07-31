@@ -34,7 +34,7 @@ letter-spacing: 3px;
 .cont-foot h1, .cont-foot span  {
     color: #ffffff;
 }
-@media (max-width: 500px) {
+@media (max-width: 640px) {
     .cont-foot {
     flex-direction: column;
     gap: 10px;

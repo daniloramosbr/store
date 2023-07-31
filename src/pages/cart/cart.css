@@ -118,10 +118,6 @@ font-weight: bold;
   .cont-cart {
   justify-content: start;
   }
-
-}
-
-@media (max-width: 500px) {
   .nav-cart {
     width: 100%;
   }
