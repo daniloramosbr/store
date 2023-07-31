@@ -20,9 +20,10 @@ export default function Section() {
       window.scrollTo(0, 0);
       setShowmodal(false)
       try {
-        const res = await axios.get('http://localhost:580/apidaniloramos');
+        const res = await axios.get('https://server-daniloramosbr.vercel.app/');
         setLoading(false)
-        setResApi(res.data);
+        console.log(res.data.api)
+        setResApi(res.data.api);
       } catch (error) {
         console.log(error.message);
       }
