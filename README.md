@@ -2,6 +2,7 @@
 
 Projeto de uma loja Virtual com api, carrinho de compras, input de pesquisa, tema dark e outras funcionalidades (api criada por mim).
 
+
 ## Funcionalidades
 
 - Tema dark e light
